@@ -28,7 +28,7 @@ public class Main {
         System.out.println(User.withdrawMoney(money, pass));
 
         // calculate rate of Intrest
-        System.out.println("The Intrest you get for" +User.calculateInterest(10));
+        System.out.println("The interest earned is: " +User.calculateInterest(10));
 
 
 
@@ -77,7 +77,7 @@ public class Main {
         System.out.println(use.withdrawMoney(mone, pa));
 
         //rate of Int
-        System.out.println(use.calculateInterest(5));
+        System.out.println("The interest we get is "+use.calculateInterest(5));
 
 
 
